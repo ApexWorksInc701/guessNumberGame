@@ -50,8 +50,6 @@ function runGame(gameLevel, gameStatus) {
 // error handling
 if(gameStatus == 9){ // user requested to end the game
     console.log("Game Over!");
-    var myCookie = getCookie("username");
-    console.log(myCookie);
   } else { // user entered a number other than 1 or 9
     console.log("Game crashed, kindly restart!")
   } 
